@@ -8,14 +8,21 @@ opt.autoindent = true
 opt.number = true
 opt.expandtab = true
 
-
 -- search
 opt.ignorecase = true
 opt.smartcase = true
 
 -- style
 opt.cursorline = true
+opt.termguicolors = true
 
 -- clipborad
 opt.clipboard:append('unnamedplus')
+
+-- feature
+opt.wildmenu = true
+opt.mouse = 'a'
+opt.splitright = true
+
+
 
