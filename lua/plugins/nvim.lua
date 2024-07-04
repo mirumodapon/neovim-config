@@ -10,6 +10,7 @@ return {{
     priority = 1000,
     config = function()
       vim.cmd.colorscheme 'catppuccin'
+
       require('lualine').setup({
         options = {
           theme = 'auto'

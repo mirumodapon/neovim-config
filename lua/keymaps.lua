@@ -7,3 +7,6 @@ keymap.set('n', '<leader>l', '<cmd>Neotree float<CR>')
 
 keymap.set('n', '<leader>g', '<cmd>Neogit<CR>')
 
+keymap.set('n', '<leader>c', ':')
+keymap.set('n', '<leader>s', '<cmd>w<CR>')
+keymap.set('n', '<leader>e', '<cmd>w<CR>:!')
