@@ -9,4 +9,5 @@ keymap.set('n', '<leader>g', '<cmd>Neogit<CR>')
 
 keymap.set('n', '<leader>c', ':')
 keymap.set('n', '<leader>s', '<cmd>w<CR>')
+keymap.set('n', '<leader>q', '<cmd>q<CR>')
 keymap.set('n', '<leader>e', '<cmd>w<CR>:!')
