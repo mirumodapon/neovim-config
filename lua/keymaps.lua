@@ -11,3 +11,4 @@ keymap.set('n', '<leader>fb', '<cmd>Telescope buffers<CR>')
 keymap.set('n', '<leader>fr', '<cmd>Telescope registers<CR>')
 keymap.set('n', '<leader>fm', '<cmd>Telescope marks<CR>')
 keymap.set('n', '<leader>fh', '<cmd>Telescope help_tags<CR>')
+

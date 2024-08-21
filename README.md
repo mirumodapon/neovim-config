@@ -8,4 +8,7 @@
 7. nvim-surround https://github.com/kylechui/nvim-surround
 8. colorizer https://github.com/norcalli/nvim-colorizer.lua
 9. nvim-treesitter https://github.com/nvim-treesitter/nvim-treesitter
-
+10. toggleterm.nvim https://github.com/akinsho/toggleterm.nvim
+11. neo-git https://github.com/NeogitOrg/neogit
+12. luasnap https://github.com/L3MON4D3/LuaSnip
+13. comment https://github.com/numToStr/Comment.nvim
