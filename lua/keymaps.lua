@@ -12,3 +12,9 @@ keymap.set('n', '<leader>fr', '<cmd>Telescope registers<CR>')
 keymap.set('n', '<leader>fm', '<cmd>Telescope marks<CR>')
 keymap.set('n', '<leader>fh', '<cmd>Telescope help_tags<CR>')
 
+keymap.set('n', '<leader>s', '<cmd>w<CR>')
+keymap.set('n', '<leader>S', '<cmd>wq<CR>')
+
+keymap.set('n', '<leader>q', '<cmd>q<CR>')
+keymap.set('n', '<leader>Q', '<cmd>q!<CR>')
+
