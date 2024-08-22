@@ -1,16 +1,34 @@
 return {
-  "nvim-neo-tree/neo-tree.nvim",
-  branch = "v3.x",
+  'nvim-tree/nvim-tree.lua',
   dependencies = {
-    "nvim-lua/plenary.nvim",
     "nvim-tree/nvim-web-devicons", 
-    "MunifTanjim/nui.nvim",
-    "3rd/image.nvim"
   },
   config = function()
-    require("neo-tree").setup({
-      window = {
-        width = 30
+    vim.g.loaded_netrw = 1
+    vim.g.loaded_netrwPlugin = 1
+
+    require('nvim-tree').setup({
+      view = {
+        width = 35,
+        relativenumber = true
+      },
+      renderer = {
+        indent_markers = {
+          enable = true
+        }
+      },
+      actions = {
+        open_file = {
+          window_picker = {
+            enable = false
+          }
+        }
+      },
+      filters = {
+        custom = { '.DS_Store' }
+      },
+      git = {
+        ignore = false
       }
     })
 
