@@ -25,6 +25,7 @@ return {
         keymap.set('n', '<leader> D', vim.lsp.buf.declaration, { desc = 'Go to declaration' })
         keymap.set('n', '<leader> d', '<cmd>Telescope lsp_definitions<CR>', { desc = 'Show LSP definitions' })
         keymap.set('n', '<leader> s', '<cmd>LspRestart<CR>', { desc = 'Restart LSP' })
+        keymap.set('n', '<leader> h', vim.lsp.buf.hover, { desc = 'Show documentation for what is under cursor' })
         
         --[[ opts.desc = 'Show LSP references'
         keymap.set('n', 'gR', '<cmd>Telescope lsp_references<CR>', opts) -- show definition, references

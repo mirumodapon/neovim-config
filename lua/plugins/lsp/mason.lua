@@ -20,12 +20,7 @@ return {
     })
 
     mason_tool_installer.setup({
-      ensure_installed = {
-        'prettier',
-        'stylua',
-        'isort',
-        'black'
-      },
+      ensure_installed = {},
     })
 
     mason_lspconfig.setup()
